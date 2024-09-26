@@ -28,3 +28,6 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+def test(string, ending):
+    """Check if 'string' ends with 'ending'."""
+    return string.endswith(ending)
