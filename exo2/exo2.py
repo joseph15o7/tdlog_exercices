@@ -28,3 +28,8 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+# exo2.py
+
+def solution(string, ending):
+    """Check if 'string' ends with 'ending'."""
+    return string.endswith(ending)
